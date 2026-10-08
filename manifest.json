@@ -1,0 +1,23 @@
+*{box-sizing:border-box;font-family:system-ui}
+body{margin:0;background:#020806;color:#fff;padding-bottom:120px}
+.header{background:linear-gradient(90deg,#008751,#0a3d22);padding:14px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20;font-weight:900}
+.live{background:#0f0;color:#000;font-size:10px;padding:3px 8px;border-radius:20px;margin-left:6px}
+.balance{background:#000;color:#0f0;padding:6px 12px;border-radius:20px;border:1px solid #0f0}
+.pipeline-bar{display:flex;gap:6px;padding:10px;overflow-x:auto;background:#080f0a;border-bottom:1px solid #113322}
+.p-step{padding:6px 12px;border-radius:20px;background:#111;border:1px solid #333;font-size:11px;white-space:nowrap}
+.p-step.active{background:#008751;border-color:#0f0;box-shadow:0 0 8px #0f0}
+.kpi{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin:8px}
+.kpi div{background:#0d1812;border:1px solid #1a3326;border-radius:12px;padding:10px;text-align:center}
+.card{background:#0d1812;border:1px solid #1a3326;border-radius:14px;padding:14px;margin:8px}
+.hidden{display:none}
+.output-box{background:#000;border:1px solid #222;border-radius:10px;padding:10px;margin:8px 0;white-space:pre-wrap;font-size:13px}
+h3{margin:6px 0;color:#0f0;font-size:14px}
+label{font-size:11px;color:#7a9a8a;margin-top:8px;display:block}
+input,select,textarea{width:100%;padding:11px;background:#000;color:#fff;border:1px solid #333;border-radius:8px;margin:5px 0}
+.btn-primary{background:#008751;color:#fff;width:100%;padding:12px;border:none;border-radius:10px;font-weight:900;margin-top:8px}
+.btn-secondary{background:#1a2e26;color:#fff;width:100%;padding:12px;border:1px solid #2a4a3a;border-radius:10px;font-weight:700;margin-top:8px}
+.btn-gold{background:#ffd700;color:#000;width:100%;padding:12px;border:none;border-radius:10px;font-weight:900;margin-top:8px}
+.btn-wa{background:#25D366;color:#fff;padding:10px;border-radius:8px;border:none;font-weight:900}
+.btn-fb{background:#1877F2;color:#fff;padding:10px;border-radius:8px;border:none;font-weight:900}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.small{font-size:11px;color:#7a9a8a}
